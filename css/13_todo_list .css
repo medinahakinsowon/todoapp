@@ -1,0 +1,73 @@
+body{
+  font-family: Arial;
+  
+}
+.body-container{
+  background-image: url(../images/blacktable.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  height: 90vh;
+  position: relative;
+}
+.main-container{
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+.login_date_time{
+  position: absolute;
+  left: 7%;
+  top: 7%;
+}
+.login_date_time .login__date{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-container .theme-text p{
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+} 
+.todo_grid,
+.todo_input_grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todo_input_grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.todo_input,
+.due_date_input {
+  font-size: 17px;
+  padding: 7px;
+}
+.todo_add_button{
+  background-color: blue;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.delete_todo_button{
+  background-color: darkred;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+}
+.todo_input_things,
+.todo_date {
+  color: #fff;
+  font-size: 25px;
+}
